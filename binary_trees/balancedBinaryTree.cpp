@@ -1,14 +1,12 @@
-#include "treenode.h"
 #include <iostream>
+#include "treenode.h"
 
-using namespace std;
+using namespace std;;
 
-int main(){
-    TreeNode* root = new TreeNode(3,new TreeNode(9),new TreeNode(20));
+int main (){
+    TreeNode * bt = build("[1,2,3,null,null,4]");
 
-    cout << root->val_ << endl;
-    
+    cout << bt->val_ << endl;
 
     return 0;
-
 }
